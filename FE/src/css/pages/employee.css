@@ -1,0 +1,134 @@
+.show-employee {
+    z-index: 999;
+}
+/* Thiết lập cho phần header form chi tiết nhân viên */
+.detail-employee .detail-employee-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Phần bên trái của header form */
+.detail-employee .detail-employee-header .employee-header-left{
+    display: flex;
+}
+.detail-employee .detail-employee-header .employee-header-left > div {
+    align-items: center;
+    display: flex;
+}
+.detail-employee .detail-employee-header .employee-header-left div .input-checkbox {
+    margin: 0 10px 0 20px;
+}
+/* Phần bên phải của header form */
+.detail-employee .detail-employee-header .employee-header-right {
+    display: flex;
+}
+.employee-header-right div {
+    margin-left: 15px;
+}
+
+/* Thiết lập css cho phần main */
+.detail-employee-main > div {
+    display: flex;
+    align-items: center;
+}
+.detail-employee-main .row1 > div {
+    justify-content: space-between;
+}
+.detail-employee-main input {
+    width: 100%;
+}
+.detail-employee div .row11,
+.detail-employee div .row21,
+.detail-employee div .row22
+ {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.detail-employee div .row21 > div {
+    width: 48%;
+}
+.detail-employee div .row11 .employee-name {
+    width: 56%;
+}
+.detail-employee div .row11 .employee-code {
+    width: 42%;
+}
+.detail-employee .dateofbirth input {
+    width: 292px;
+}
+.detail-employee .date-range input {
+    width: 292px;
+}
+
+
+.detail-employee-main .row1-left,
+.detail-employee-main .row1-right {
+    position: absolute;
+    width: 47%;
+}
+
+.detail-employee-main .row1-left {
+    top: 50px;
+    left: 30px;
+    height: 300px;
+}
+.detail-employee-main .row1-left .position {
+    margin-top: 66px;
+}
+.detail-employee-main .row1-right {
+    top: 50px;
+    right: 30px;
+}
+
+.list-gender {
+    display: flex;
+}
+.detail-employee-main .gender input,
+.detail-employee-main .gender p
+ {
+    width: 30px;
+    margin-right: 6px;
+    height: 20px;
+    margin-top: 10px;
+
+}
+
+.detail-employee-main .gender input {
+    flex-shrink: 0;
+}
+.detail-employee-main .gender p {
+    margin-right: 24px;
+}
+.detail-employee-main .row3 div {
+    margin-top: 235px;
+    width: 100%;
+}
+
+.detail-employee-main .row4 div,
+.detail-employee-main .row5 div {
+    width: 24%;
+    margin-right: 10px;
+}
+
+.detail-employee-main .row4 input,
+.detail-employee-main .row5 input {
+    width: 100%;
+}
+
+/* css cho footer */
+.detail-employee-footer {
+    background: #eeee;
+    height: 60px;
+}
+.detail-employee .m-button-cancel {
+    background: white;
+}
+
+/* .select-employee {
+    display: flex;
+    width: 800px;
+    align-items: center;
+    justify-content: space-between;
+} */

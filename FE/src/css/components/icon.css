@@ -1,0 +1,370 @@
+/* Thiết lập cho icon */
+.icon {
+    height: 24px;
+    width: 24px;
+    background-image: url("../../assets/img/Sprites.64af8f61.svg");
+    background-repeat: no-repeat;
+    background-size: 2000px 2000px;
+    cursor: pointer;
+}
+
+/* icon bell */
+.icon-bell {
+    background-position: -781px -84px;
+}
+
+/* icon reload */
+.icon-reload {
+    background-position: -1082px -137px;
+}
+
+/* icon toggle */
+.icon-toggle {
+    background-position: -1144px -83px;
+}
+
+/* icon bars */
+.icon-bars {
+    background-position: -837px -84px;
+}
+
+/* icon down small*/
+.icon-down-small {
+    background-position: -1778px -518px;
+}
+
+/* icon  down large*/
+.icon-down-large {
+    background-position: -1115px -409px;
+}
+
+/* icon overview */
+.icon-overview {
+    background-position: -30px -1669px;
+}
+
+/* icon money bag */
+.icon-bag {
+    background-position: -73px -1670px;
+}
+
+/* icon send money */
+.icon-send {
+    background-position: -116px -1670px;
+}
+
+/* icon buy product */
+.icon-buy {
+    background-position: -160px -1670px;
+}
+
+/* icon sell product */
+.icon-sell {
+    background-position: -203px -1670px;
+}
+
+/* icon bill */
+.icon-bill {
+    background-position: -247px -1670px;
+}
+
+/* icon warehouse */
+.icon-warehouse {
+    background-position: -289px -1670px;
+}
+
+/* icon tools */
+.icon-tools {
+    background-position: -333px -1670px;
+}
+
+/* icon asset */
+.icon-asset {
+    background-position: -376px -1670px;
+}
+
+/* icon tax */
+.icon-tax {
+    background-position: -420px -1671px;
+}
+
+/* icon price */
+.icon-price {
+    background-position: -464px -1671px;
+}
+
+/* icon synthetic */
+.icon-synthetic {
+    background-position: -507px -1670px;
+}
+
+/* icon report */
+.icon-report {
+    background-position: -542px -1672px;
+}
+
+/* icon analysis */
+.icon-analysis {
+    background-position: -203px -1703px;
+}
+
+/* icon bank */
+.icon-bank {
+    background-position: -375px -1702px;
+}
+
+/* icon search */
+.icon-search {
+    background-position: -718px -95px;
+    background-size: 1400px 1400px;
+}
+
+/* icon caret-down setup */
+.icon-caret-down-setup {
+    background-position: -885px -407px;
+}
+
+/* icon caret-down small */
+.icon-caret-down-small {
+    background-position: -552px -407px;
+}
+
+/* icon caret-down large */
+.icon-caret-down-large {
+    background-position: -362px -407px;
+}
+
+/* icon logo company */
+.icon-logo {
+    background-image: url("../../assets/favicon.ico");
+    height: 32px;
+    width: 32px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+/* icon user */
+.icon-user {
+    background-position: -349px -942px;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    background-color: #cccc;
+}
+
+/* icon question */
+.icon_question {
+    background-position: -725px -84.5px;
+}
+
+/* icon close */
+.icon-close {
+    background-position: -1163px -408px;
+    filter: invert(18%) sepia(100%) saturate(4967%) hue-rotate(357deg) brightness(83%) contrast(123%);
+}
+
+/* icon plus large*/
+.icon-plus-large {
+    background-position: -608px -946px;
+}
+
+/* icon plus small */
+.icon-plus-small {
+    background-position: -30.5px -363px;
+    height: 20px;
+    width: 20px;
+    filter: invert(94%) sepia(0%) saturate(7500%) hue-rotate(330deg) brightness(1200%) contrast(108%);
+}
+
+/* icon filter */
+.icon-filter {
+    background-position: -1588px  -143px;
+}
+
+/* icon setting */
+.icon-setting {
+    background-position: -504px  -360px;
+}
+
+/* icon warning */
+.icon_warning {
+    background-position: -810px -198px;
+}
+
+/* icon successful */
+.icon_successful {
+    background-position: -1587px -308.5px;
+}
+
+/* icon info */
+.icon_info {
+    background-position: -399px -306.5px;
+    background-size: 1200px 1200px;
+}
+
+/* icon error */
+.icon_error {
+    background-position: -313px -477.5px;
+    background-size: 800px 800px;
+}
+
+/* icon file */
+.icon-file {
+    background-position: -484.5px -700px;
+    background-size: 1600px 1600px;
+}
+
+/* icon logo index1.html */
+.icon-logo-1 {
+    background: url("../../assets/img/Sprites.64af8f61.svg") no-repeat -917px -1694px;
+	width: 134px;
+	height: 32px;
+}
+
+/* icon customer */
+.icon-customer {
+    background-position: -116px -1702px;
+}
+
+/* icon after */
+.icon-after {
+    background-position: -49px -618px;
+    background-size: 3000px 3000px;
+}
+
+/* icon before */
+.icon-before {
+    background-position: -118px -618px;
+    background-size: 3000px 3000px;
+}
+
+/* icon prev */
+.icon-prev {
+    background-position: -49px -618px;
+    background-size: 3000px 3000px;
+}
+
+/* icon loading */
+.icon-loading {
+    background-image: url("../../assets/loading.svg");
+    height: 50px;
+    width: 50px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+/* icon chevron-down */
+.icon_chevron_down {
+    background: url("../../assets/img/Sprites.64af8f61.svg") no-repeat -167px -350px;
+	width: 12px;
+	height: 8px;
+    filter: invert(9%) sepia(9%) saturate(21%) hue-rotate(332deg) brightness(93%) contrast(90%);
+}
+
+.icon-export {
+	background: url("../../assets/img/Sprites.64af8f61.svg") no-repeat -139px -251px;
+	width: 19px;
+	height: 19px;
+    cursor: pointer;
+}
+.icon_chevron_up {
+	background: url("../../assets/img/Sprites.64af8f61.svg") no-repeat -118px -350px;
+	width: 12px;
+	height: 8px;
+    filter: invert(9%) sepia(9%) saturate(21%) hue-rotate(332deg) brightness(93%) contrast(90%);
+}
+.icon_confirm_delete {
+    background: url("../../assets/img/Sprites.64af8f61.svg") no-repeat no-repeat -32px -962px;
+	width: 32px;
+	height: 32px;
+}
+
+.icon_confirm_warning {
+    background: url("../../assets/img/Sprites.64af8f61.svg") no-repeat no-repeat -598px -463px;
+    width: 36px;
+    height: 37px;
+}
+
+.icon_confirm_question {
+    background: url("../../assets/img/Sprites.64af8f61.svg") no-repeat no-repeat -832px -462px;
+    width: 36px;
+    height: 36px;
+}
+.icon_down_small {
+	background: url("../../assets/img/Sprites.64af8f61.svg") no-repeat -166px -350px;
+    width: 12px;
+	height: 8px;
+    filter: invert(9%) sepia(9%) saturate(21%) hue-rotate(332deg) brightness(93%) contrast(90%);
+}
+.icon_next {
+    background: url("../../assets/img/Sprites.64af8f61.svg") no-repeat -320px -313px;
+    width: 16px;
+    height: 14px;
+}
+.icon_back {
+	background: url("../../assets/img/Sprites.64af8f61.svg") no-repeat -368px -313px;
+	width: 16px;
+	height: 14px;
+}
+.icon_delete {
+	background: url("../../assets/img/Sprites.64af8f61.svg") no-repeat -538px -146px;
+	width: 20px;
+	height: 20px;
+}
+.icon-microsoft {
+    background-image: url("../../assets/img/icon-microsoft.svg");
+}
+.icon-google {
+    background: url("../../assets/img/icon-google.svg");
+}
+.icon-apple {
+    background: url("../../assets/img/icon-apple.svg");
+}
+.icon-amis-platform2 {
+    background: url("../../assets/img/icon-amis-platform2.svg") center no-repeat;
+    font-size: 60px;
+    background-size: contain;
+    width: 196px;
+    height: 36px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.icon_show_pass {
+    background: url("../../assets/img/icon-show-pass.svg") center no-repeat;
+    cursor: pointer;
+}
+.icon_hide_pass {
+    background: url("../../assets/img/icon-hide-pass.svg") center no-repeat;
+    cursor: pointer;
+}
+.icon_vn {
+    background: url("../../assets/img/icon-vi.svg");
+}
+.icon_en {
+    background: url("../../assets/img/icon-en.svg");
+}
+.not-found {
+    background: url("../../assets/img/error-404.jpg");
+    min-height: 330px;
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.icon-employees {
+    background: url("../../assets/img/Sprites.64af8f61.svg") no-repeat no-repeat -120px -1664px;
+	width: 17px;
+	height: 17px;
+}
+.icon-close-toast {
+    background: url("../../assets/img/Sprites.64af8f61.svg") no-repeat -1177px -361px;
+	width: 16px;
+	height: 16px;
+}
+.icon-delete-all {
+    background: url("../../assets/img/Sprites.64af8f61.svg") no-repeat -464px -313px;
+	width: 15px;
+	height: 15px;
+    margin-top: 2px;
+}

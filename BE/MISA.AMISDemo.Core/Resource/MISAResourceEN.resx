@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccountIdNotValid" xml:space="preserve">
+    <value>Account code does not exist</value>
+  </data>
+  <data name="AccountNotNull" xml:space="preserve">
+    <value>Accounts cannot be left blank</value>
+  </data>
+  <data name="AccountNotValid" xml:space="preserve">
+    <value>Account does not exist</value>
+  </data>
+  <data name="BodyCodeRecoverPassword" xml:space="preserve">
+    <value>is the authentication code to retrieve the MISA account password</value>
+  </data>
+  <data name="CachedEmployees" xml:space="preserve">
+    <value>CachedEmployees</value>
+  </data>
+  <data name="CodeAlreadyExist" xml:space="preserve">
+    <value>The customer code already exists in the system</value>
+  </data>
+  <data name="CodeRecoverPassword" xml:space="preserve">
+    <value>CodeRecoverPassword</value>
+  </data>
+  <data name="CodeRecoverPasswordNoValid" xml:space="preserve">
+    <value>Invalid authentication code. Please check again!</value>
+  </data>
+  <data name="CustomerCodeDuplicate" xml:space="preserve">
+    <value>Customer codes cannot be duplicated</value>
+  </data>
+  <data name="CustomerCodeNotFound" xml:space="preserve">
+    <value>The customer code does not exist in the system</value>
+  </data>
+  <data name="DepartmentExist" xml:space="preserve">
+    <value>The department does not exist in the system</value>
+  </data>
+  <data name="DepartmentNotEmpty" xml:space="preserve">
+    <value>Departments are not allowed to be vacant</value>
+  </data>
+  <data name="Dev" xml:space="preserve">
+    <value>DevMsg:</value>
+  </data>
+  <data name="DevMsg" xml:space="preserve">
+    <value>Login error. Unable to verify login name and password</value>
+  </data>
+  <data name="EmailMalformed" xml:space="preserve">
+    <value>Email invalidate</value>
+  </data>
+  <data name="EmailNotEmpty" xml:space="preserve">
+    <value>Email cannot be left blank</value>
+  </data>
+  <data name="EmailNoValid" xml:space="preserve">
+    <value>Email does not exist in the system. Please check again!</value>
+  </data>
+  <data name="EmployeeCode" xml:space="preserve">
+    <value>Employee code</value>
+  </data>
+  <data name="EmployeeCodeDuplicate" xml:space="preserve">
+    <value>already exists in the system, please check again.</value>
+  </data>
+  <data name="EmployeeCodeNotEmpty" xml:space="preserve">
+    <value>Employee codes cannot be left blank</value>
+  </data>
+  <data name="EmployeeCodeNotFound" xml:space="preserve">
+    <value>The employee code does not exist in the system</value>
+  </data>
+  <data name="FEMALE" xml:space="preserve">
+    <value>Female</value>
+  </data>
+  <data name="FileImportMalformed" xml:space="preserve">
+    <value>The imported file is not in the correct format</value>
+  </data>
+  <data name="FileImportNotNull" xml:space="preserve">
+    <value>Import files cannot be empty</value>
+  </data>
+  <data name="FormatDate" xml:space="preserve">
+    <value>dd/MM/yyyy</value>
+  </data>
+  <data name="FormatMonthYear" xml:space="preserve">
+    <value>MM/yyyy</value>
+  </data>
+  <data name="FromMail" xml:space="preserve">
+    <value>EmailSettings:FromMail</value>
+  </data>
+  <data name="FromPassword" xml:space="preserve">
+    <value>EmailSettings:FromPassword</value>
+  </data>
+  <data name="FullName" xml:space="preserve">
+    <value>First and last name</value>
+  </data>
+  <data name="InformationBlank" xml:space="preserve">
+    <value>Leave blank is not allowed</value>
+  </data>
+  <data name="InformatonDate" xml:space="preserve">
+    <value>It is not allowed to be larger than the current date</value>
+  </data>
+  <data name="ListAccountEmpty" xml:space="preserve">
+    <value>Account list does not exist</value>
+  </data>
+  <data name="LoginNotSuccess" xml:space="preserve">
+    <value>Account information or password is incorrect</value>
+  </data>
+  <data name="MALE" xml:space="preserve">
+    <value>Male</value>
+  </data>
+  <data name="Msg" xml:space="preserve">
+    <value>, DevMsg:</value>
+  </data>
+  <data name="NotValid" xml:space="preserve">
+    <value>Illegal</value>
+  </data>
+  <data name="PageIndexNotLessThan1" xml:space="preserve">
+    <value>Page position cannot be less than 1</value>
+  </data>
+  <data name="PageSizeNotLessThan1" xml:space="preserve">
+    <value>The number of pages cannot be less than 1</value>
+  </data>
+  <data name="PasswordNoEmpty" xml:space="preserve">
+    <value>Password cannot be left blank</value>
+  </data>
+  <data name="PasswordNotNull" xml:space="preserve">
+    <value>Password cannot be left blank</value>
+  </data>
+  <data name="PositionNotEmpty" xml:space="preserve">
+    <value>Positions cannot be left vacant</value>
+  </data>
+  <data name="PostionNotExist" xml:space="preserve">
+    <value>The position does not exist in the system</value>
+  </data>
+  <data name="RefreshTokenValidityInDays" xml:space="preserve">
+    <value>JWT:RefreshTokenValidityInDays</value>
+  </data>
+  <data name="Roles" xml:space="preserve">
+    <value>Roles</value>
+  </data>
+  <data name="Secret" xml:space="preserve">
+    <value>JWT:Secret</value>
+  </data>
+  <data name="SMTPGmail" xml:space="preserve">
+    <value>EmailSettings:SMTPGmail</value>
+  </data>
+  <data name="SubjectCodeRecoverPassword" xml:space="preserve">
+    <value>Password recovery code</value>
+  </data>
+  <data name="TokenNotValid" xml:space="preserve">
+    <value>Invalid access token or refresh token</value>
+  </data>
+  <data name="TokenValidityInMinutes" xml:space="preserve">
+    <value>JWT:TokenValidityInMinutes</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>UserMsg:</value>
+  </data>
+  <data name="UserMessage" xml:space="preserve">
+    <value>If an error occurs, please contact MISA for help</value>
+  </data>
+  <data name="UserName" xml:space="preserve">
+    <value>UserName</value>
+  </data>
+  <data name="UserNameValid" xml:space="preserve">
+    <value>Invalid username</value>
+  </data>
+  <data name="ValidAudience" xml:space="preserve">
+    <value>JWT:ValidAudience</value>
+  </data>
+  <data name="ValidIssuer" xml:space="preserve">
+    <value>JWT:ValidIssuer</value>
+  </data>
+  <data name="XLSX" xml:space="preserve">
+    <value>.xlsx</value>
+  </data>
+</root>

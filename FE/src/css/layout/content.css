@@ -1,0 +1,54 @@
+.content {
+    width: calc(100% - 200px);
+    padding: 0 24px;
+    background: #EEEFF1;
+}
+.content-header {
+    padding: 20px 0 19px 0;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-header .content-title {
+    font-size: 24px;
+    font-family: notosans-bold;
+    font-weight: 700;
+    color: #1F1F20;
+}
+
+
+
+/* Thiết lập cho table */
+.content-main {
+    background: #FFFFFF;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.content-main table {
+    width: 100%;
+}
+.content-main .tbl-header .tbl-header-employee{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.content-main .tbl-header .tbl-header-employee .input-icon {
+    margin-right: 68px;
+}
+
+/* icon reload */
+.content-main .tbl-header .icon-reload,
+.content-main .tbl-header .icon-file
+ {
+    height: 36px;
+    width: 36px;
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+    margin-right: 20px;
+}
+
+/* Thiết lập cho giá trị trong table */

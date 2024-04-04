@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccountIdNotValid" xml:space="preserve">
+    <value>Mã tài khoản không tồn tại</value>
+  </data>
+  <data name="AccountNotNull" xml:space="preserve">
+    <value>Tài khoản không được phép bỏ trống</value>
+  </data>
+  <data name="AccountNotValid" xml:space="preserve">
+    <value>Tài khoản không tồn tại</value>
+  </data>
+  <data name="BankName" xml:space="preserve">
+    <value>Tên ngân hàng</value>
+  </data>
+  <data name="Birth" xml:space="preserve">
+    <value>Ngày sinh</value>
+  </data>
+  <data name="BodyCodeRecoverPassword" xml:space="preserve">
+    <value>là mã xác thực lấy lại mật khẩu tài khoản MISA</value>
+  </data>
+  <data name="CachedEmployees" xml:space="preserve">
+    <value>CachedEmployees</value>
+  </data>
+  <data name="Char" xml:space="preserve">
+    <value>kí tự</value>
+  </data>
+  <data name="CMND" xml:space="preserve">
+    <value>Số chứng minh nhân dân</value>
+  </data>
+  <data name="CodeAlreadyExist" xml:space="preserve">
+    <value>Mã khách hàng đã tồn tại trong hệ thống</value>
+  </data>
+  <data name="CodeRecoverPassword" xml:space="preserve">
+    <value>CodeRecoverPassword</value>
+  </data>
+  <data name="CodeRecoverPasswordNoValid" xml:space="preserve">
+    <value>Mã xác thực không hợp lệ. Vui lòng kiểm tra lại!</value>
+  </data>
+  <data name="CustomerCodeDuplicate" xml:space="preserve">
+    <value>Mã khách hàng không được phép trùng</value>
+  </data>
+  <data name="CustomerCodeNotFound" xml:space="preserve">
+    <value>Mã khách hàng không tồn tại trong hệ thống</value>
+  </data>
+  <data name="Department" xml:space="preserve">
+    <value>Tên đơn vị</value>
+  </data>
+  <data name="DepartmentExist" xml:space="preserve">
+    <value>Phòng ban không tồn tại trong hệ thống</value>
+  </data>
+  <data name="DepartmentNotEmpty" xml:space="preserve">
+    <value>Phòng ban không được phép bỏ trống</value>
+  </data>
+  <data name="Dev" xml:space="preserve">
+    <value>DevMsg:</value>
+  </data>
+  <data name="DevMsg" xml:space="preserve">
+    <value>Lỗi đăng nhập. Không thể xác minh tên đăng nhập và mật khẩu</value>
+  </data>
+  <data name="EmailMalformed" xml:space="preserve">
+    <value>Email không đúng định dạng</value>
+  </data>
+  <data name="EmailNotEmpty" xml:space="preserve">
+    <value>Email không được phép bỏ trống</value>
+  </data>
+  <data name="EmailNoValid" xml:space="preserve">
+    <value>Email không tồn tại trong hệ thống. Vui lòng kiểm tra lại!</value>
+  </data>
+  <data name="EmployeeCode" xml:space="preserve">
+    <value>Mã nhân viên</value>
+  </data>
+  <data name="EmployeeCodeDuplicate" xml:space="preserve">
+    <value>đã tồn tại trong hệ thống, vui lòng kiểm tra lại.</value>
+  </data>
+  <data name="EmployeeCodeNotChar" xml:space="preserve">
+    <value>Sau tiền tố NV- bắt buộc phải nhập chữ số</value>
+  </data>
+  <data name="EmployeeCodeNotEmpty" xml:space="preserve">
+    <value>Mã nhân viên không được phép bỏ trống</value>
+  </data>
+  <data name="EmployeeCodeNotFound" xml:space="preserve">
+    <value>Mã nhân viên không tồn tại trong hệ thống</value>
+  </data>
+  <data name="EmployeeCodePrefix" xml:space="preserve">
+    <value>Tiền tố của mã nhân viên bắt buộc là NV- và có ít nhất 1 số đằng sau</value>
+  </data>
+  <data name="EmployeeName" xml:space="preserve">
+    <value>Tên nhân viên</value>
+  </data>
+  <data name="FEMALE" xml:space="preserve">
+    <value>Nữ</value>
+  </data>
+  <data name="FileImportMalformed" xml:space="preserve">
+    <value>File nhập khẩu không đúng định dạng</value>
+  </data>
+  <data name="FileImportNotNull" xml:space="preserve">
+    <value>File nhập khẩu không được bỏ trống</value>
+  </data>
+  <data name="FileNotValid" xml:space="preserve">
+    <value>File không đúng định dạng vui lòng kiểm tra lại</value>
+  </data>
+  <data name="FormatDate" xml:space="preserve">
+    <value>dd/MM/yyyy</value>
+  </data>
+  <data name="FormatMonthYear" xml:space="preserve">
+    <value>MM/yyyy</value>
+  </data>
+  <data name="FromMail" xml:space="preserve">
+    <value>EmailSettings:FromMail</value>
+  </data>
+  <data name="FromPassword" xml:space="preserve">
+    <value>EmailSettings:FromPassword</value>
+  </data>
+  <data name="FullName" xml:space="preserve">
+    <value>Họ và tên</value>
+  </data>
+  <data name="Gender" xml:space="preserve">
+    <value>Giới tính</value>
+  </data>
+  <data name="InformationBlank" xml:space="preserve">
+    <value>không được phép bỏ trống</value>
+  </data>
+  <data name="InformatonDate" xml:space="preserve">
+    <value>không được phép lơn hơn ngày hiện tại</value>
+  </data>
+  <data name="ListAccountEmpty" xml:space="preserve">
+    <value>Danh sách tài khoản không tồn tại</value>
+  </data>
+  <data name="LoginNotSuccess" xml:space="preserve">
+    <value>Thông tin tài khoản hoặc mật khẩu không chính xác</value>
+  </data>
+  <data name="MALE" xml:space="preserve">
+    <value>Nam</value>
+  </data>
+  <data name="MaxLength" xml:space="preserve">
+    <value>không được vượt quá</value>
+  </data>
+  <data name="Msg" xml:space="preserve">
+    <value>", DevMsg: "</value>
+  </data>
+  <data name="NotValid" xml:space="preserve">
+    <value>Không hợp lệ</value>
+  </data>
+  <data name="PageIndexNotLessThan1" xml:space="preserve">
+    <value>Vị trí trang không được nhỏ hơn 1</value>
+  </data>
+  <data name="PageSizeNotLessThan1" xml:space="preserve">
+    <value>Số trang không được nhỏ hơn 1</value>
+  </data>
+  <data name="PasswordNoEmpty" xml:space="preserve">
+    <value>Mật khẩu không được phép bỏ trống</value>
+  </data>
+  <data name="PasswordNotNull" xml:space="preserve">
+    <value>Mật khẩu không được phép bỏ trống</value>
+  </data>
+  <data name="PhoneNumber" xml:space="preserve">
+    <value>Số điện thoại</value>
+  </data>
+  <data name="Position" xml:space="preserve">
+    <value>Chức danh</value>
+  </data>
+  <data name="PositionNotEmpty" xml:space="preserve">
+    <value>Chức vụ không được phép bỏ trống</value>
+  </data>
+  <data name="PostionNotExist" xml:space="preserve">
+    <value>Chức vụ không tồn tại trong hệ thống</value>
+  </data>
+  <data name="RefreshTokenValidityInDays" xml:space="preserve">
+    <value>JWT:RefreshTokenValidityInDays</value>
+  </data>
+  <data name="Roles" xml:space="preserve">
+    <value>Roles</value>
+  </data>
+  <data name="Secret" xml:space="preserve">
+    <value>JWT:Secret</value>
+  </data>
+  <data name="SMTPGmail" xml:space="preserve">
+    <value>EmailSettings:SMTPGmail</value>
+  </data>
+  <data name="SubjectCodeRecoverPassword" xml:space="preserve">
+    <value>Mã hồi phục mật khẩu</value>
+  </data>
+  <data name="TokenNotValid" xml:space="preserve">
+    <value>Mã thông báo truy cập hoặc mã thông báo làm mới không hợp lệ</value>
+  </data>
+  <data name="TokenValidityInMinutes" xml:space="preserve">
+    <value>JWT:TokenValidityInMinutes</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>UserMsg:</value>
+  </data>
+  <data name="UserMessage" xml:space="preserve">
+    <value>Có lỗi xảy ra hãy liên hệ với MISA đề được giúp đỡ</value>
+  </data>
+  <data name="UserName" xml:space="preserve">
+    <value>UserName</value>
+  </data>
+  <data name="UserNameValid" xml:space="preserve">
+    <value>Tên người dùng không hợp lệ</value>
+  </data>
+  <data name="ValidAudience" xml:space="preserve">
+    <value>JWT:ValidAudience</value>
+  </data>
+  <data name="ValidIssuer" xml:space="preserve">
+    <value>JWT:ValidIssuer</value>
+  </data>
+  <data name="XLSX" xml:space="preserve">
+    <value>.xlsx</value>
+  </data>
+</root>

@@ -1,0 +1,53 @@
+/* Thiết lập cho nav */
+.navbar {
+    width: 200px;
+    flex-shrink: 0;
+    background-color: #041434;
+    height: 100%;
+    color: #869AB8;
+    font-size: 14px;
+    padding: 20px 12px;
+}
+
+/* Căn ngang nav */
+.navbar > div {
+    display: flex;
+    border-radius: 6px;
+    align-items: center;
+    height: 36px;
+    width: 176px;
+    cursor: pointer;
+    margin-bottom: 4px;
+    background: rgba(167, 196, 255, 0.16);
+    color: #FFFFFF;
+}
+
+/* Thiết lập khi hover */
+/* .navbar > div:hover {
+    background: rgba(167, 196, 255, 0.16);
+    cursor: pointer;
+    color: #FFFFFF;
+} */
+/* .navbar > div:hover .icon {
+    filter: invert(100%) sepia(0%) saturate(7474%) hue-rotate(57deg) brightness(2000%) contrast(106%);
+} */
+.navbar div .icon-employees {
+    margin: 0 12px;
+    filter: invert(100%) sepia(0%) saturate(7474%) hue-rotate(57deg) brightness(2000%) contrast(106%);
+}
+
+/* Thiết lập kiểu chữ cho nav */
+.navbar .navbar-title {
+    font-family: notosans-semibol;
+    font-weight: 500;
+}
+
+/* khi đc active */
+.is-active {
+    background: rgba(167, 196, 255, 0.16);
+    cursor: pointer;
+    color: #FFFFFF;
+}
+.is-active-icon {
+    filter: invert(100%) sepia(0%) saturate(7474%) hue-rotate(57deg) brightness(2000%) contrast(106%);
+}

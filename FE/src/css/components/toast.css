@@ -1,0 +1,59 @@
+/* Thiết lập cho toast */
+.m-toast {
+    position: absolute;
+    right: 24px;
+    bottom: 100px;
+    height: 56px;
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 18px;
+    border-radius: 4px;
+    background: white;
+    border: 1px solid #e0e0e0;
+    margin-top: 10px;
+    z-index: 9999;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.078);
+}
+
+/* Bên trái toast */
+.m-toast-left {
+    display: flex;
+    align-items: center;
+}
+.m-toast-left .icon {
+    margin-right: 10px;
+    flex-shrink: 0;
+}
+.m-toast-content {
+    text-align: left;
+}
+
+.add-customer-success {
+    bottom: 100px;
+}
+
+.load-data-success {
+    bottom: 160px;
+}
+
+.delete-data {
+    bottom: 220px;
+}
+.m-toast-right {
+    display: flex;
+    align-items: center;
+}
+.m-toast-right .icon-close-toast {
+    margin-left: 16px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.m-toast-right .undo {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    color: #1F1F1F;
+    text-decoration: underline;
+}

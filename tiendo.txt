@@ -1,0 +1,53 @@
+Login: 
+- Tài khoản: admin@gmail.com
+- Mật khẩu: admin
+
+
+1: Tìm hiểu về cách  thực hiện xác thực  người dùng
+- Vẽ màn hình yêu cầu đăng nhập trước khi truy cập vào ứng dụng, UI màn hình đăng nhập
+- Yêu cầu người dùng cần thực hiện đăng nhập mới có thể truy cập vào các API yêu cầu xác thực. Nghĩa là sẽ có những API cho phép truy cập mà không cần đăng nhập và có những API bắt người dùng phải đăng nhập mới có thể truy cập.
+- Nếu người dùng chưa đăng nhập mà cố tính truy cập vào các màn hình ứng dụng (Ví dụ Quản lý nhân viên) thì chương trình tự chuyển đến màn hình đăng nhập và yêu cầu người dùng phải đăng nhập trước.
+
+2: Unit Test (đã hoàn thành viết cho các api):
+- GetAll(Lấy danh sách tất cả nhân viên)
+- GetById(Lấy nhân viên theo Id)
+- CheckDuplicateCode(Kiểm tra trùng mã)
+- Insert(Thêm nhân viên)
+- Update(Sửa nhân viên)
+- Detele(Xoá nhân viên)
+- MultipleDelete(Xoá nhân viên)
+- ExportExcel(Xuất file)
+- ImportEmployee(Nhập file)
+- Search(Tìm kiếm theo mã, họ tên, số điện thoại)
+- SortDecrease(Sắp xếp tất cả bản ghi giảm dần)
+- Paging(Phân trang)
+- GetEmployeeCode(Lấy ra mã nhân viên lớn nhất và tự động tăng 1)
+.......
+
+3: Hoàn thiện, cải tiến các tính năng trong giai đoạn 01. Đặc biệt là các tính năng: Tìm kiếm, phân trang, nhập khẩu, xuất khẩu.
+- Tìm kiếm
+- Phân trang
+- Nhập khẩu
+- Xuất khẩu
+- Sử dụng thêm phím tắt trong thao tác:
+  + CTRL + 1: Thêm nhân viên
+  + CTRL + E: Sửa nhân viên(con trỏ chuột ở vị trí nhân viên)
+  + CTRL + D: Xoá nhân viên(con trỏ chuột ở vị trí nhân viên)
+  + CTRL + S: Lưu nhân viên
+  + CTRL + SHIFT + S: Lưu và giữ form thêm mới nhân viên
+  + ESC: Thoát form chi tiết nhân viên
+
+
++ Hoàn thiện thêm: 
+  - Lấy lại mật khẩu bằng email:
+     - Nhập thông tin email (kiểm tra email trong hệ thống rồi gửi mã ngẫu nhiên)
+     - Nhập mã (kiểm tra mã nhập có đúng không)
+     - Nhập lại mật khẩu(cập nhật lại mật khẩu -> chuyển hướng về đăng nhập).
+
+  Tài khoản test(lấy lại mật khẩu bằng email):
+     - Tài khoản: manhnv229@gmail.com
+     - Mật khẩu: manhnv
+
+ - Viết chung cho dialog, toast, loading,...
+ - Cải thiện thêm cho phân trang kết hợp khi chọn xoá nhiều
+ - Cải thiện thêm combobox

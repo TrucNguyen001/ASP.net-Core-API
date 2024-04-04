@@ -1,0 +1,183 @@
+.img-background {
+    background: linear-gradient(rgba(0,30,61,.6) 0,rgba(0,0,0,.1) 41.42%,rgba(0,0,0,.3) 100%), url(../../assets/img/img-background.jpg);
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-login {
+    width: 400px;
+    border-radius: 8px;
+    padding: 40px 48px 40px 48px;
+    min-height: 340px;
+    background: #fff;
+    box-shadow: 0 12px 20px rgba(0,0,0,.12);
+    margin-top: 28px;
+}
+.form-login .icon-login {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin: 0 4px;
+    cursor: pointer;
+    background-position: center;
+    background-size: 40px;
+    background-repeat: no-repeat;
+}
+.form-login .m-input {
+    font-size: 16px;
+    color: #212121;
+    line-height: 1.2;
+    display: block;
+    width: 100%;
+    height: 48px;
+    border: 1px solid #e0e5e9;
+    background: 0 0;
+    padding: 14px 16px 15px 16px;
+    border-radius: 3px;
+}
+.m-input::placeholder {
+    font-size: 16px;
+}
+.form-login .input-icon {
+    width: 304px;
+}
+.form-login .m-input:focus, .form-login .input-icon:focus {
+    border: 1px solid #0073e6;
+}
+.form-login .login-password {
+    margin-top: 14px;
+    margin-bottom: 16px;
+}
+.form-login .forget-password {
+    font-size: 14px;
+    color: #0073e6;
+    text-decoration: none;
+    margin-bottom: 24px;
+    margin-top: 77px;
+    cursor: pointer;
+}
+.form-login .login {
+    width: 100%;
+    color: #fff;
+    line-height: 40px;
+    font-weight: 500;
+    text-align: center;
+    cursor: pointer;
+    height: 40px;
+    border-radius: 3px;
+    background: #0073e6;
+    font-size: 16px;
+    font-family: notosans-semibol;
+    transition: 0.8s ease;
+}
+.form-login .login:hover {
+    background: #0062CC;
+}
+.form-login .login:active {
+    background: #66AFFF;
+}
+.form-login .login-with {
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+.form-login .line-left, .form-login .line-right {
+    height: 1px;
+    flex: 1;
+    background-color: #9ea1a5;
+}
+.form-login .form-login-footer-title {
+    background-color: #fff;
+    color: #9ea1a5;
+    font-size: 14px;
+    padding: 5px 10px 
+}
+.form-login .icon-logo-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon-pass {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    right: 8px;
+    top: 16px 
+}
+.language-nation {
+    position: fixed;
+    top: 24px;
+    right: 24px;
+    width: 120px;
+}
+.change-language {
+    min-width: 120px;
+    height: 32px;
+    z-index: 99;
+    border-radius: 3px;
+    border: 1px solid rgba(255,255,255,.3);
+    line-height: 32px;
+    color: #f8f8f8;
+    padding: 0 16px 0 38px;
+    cursor: pointer
+}
+.change-language:hover {
+    background: rgb(51, 149, 255);
+}
+.change-language:active {
+    background: #66AFFF;
+}
+.language {
+    margin-top: -1px;
+}
+.icon-nation {
+    position: absolute;
+    left: 8px;
+    top: 7px;
+    height: 16px;
+    width: 21px;
+}
+.copy-right {
+    padding-top: 14px;
+    font-size: 12px;
+    width: 100%;
+    text-align: center;
+    left: 0;
+    bottom: -28px;
+    color: rgba(255,255,255,.6);
+}
+.select-language {
+    box-shadow: 0 2px 8px rgba(0,0,0,.3);
+    z-index: 9999;
+    background-color: #fff;
+    border-radius: 3px;
+    max-height: 400px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background: white;
+    margin-top: 4px;
+}
+.select-language > div {
+    height: 32px;
+    line-height: 32px;
+    font-size: 14px;
+    color: #212121;
+    padding: 0 16px 0 16px;
+    width: 100%;
+    display: inline-flex;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.select-language > div:hover {
+    background: #EEEEEE;
+}

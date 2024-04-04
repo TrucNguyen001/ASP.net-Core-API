@@ -1,0 +1,41 @@
+/* .dropdownlist-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+.m-dropdownlist {
+    height: 36px;
+    width: 76px;
+    border-radius: 4px;
+    border: 1px solid #E5E6E6;
+    background: #ffffff;
+    padding-left: 12px;
+    outline: none;
+}
+
+/* Thiết lập cho placeholder dropdownlist */
+.m-dropdownlist::placeholder {
+    font-size: 8px;
+    font-weight: 400;
+    align-items: center;
+    font-size: 14px;
+    color: #9E9E9E;
+}
+/* Thiết lập khi focus vào input */
+.m-dropdownlist:focus {
+    border: 1px solid #50B83C;
+}
+
+/* Thiết lập khi lỗi input */
+.m-dropdownlist-error {
+    border: 1px solid #E61D1D;
+}
+
+.dropdownlist-icon .icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 36px;
+    width: 36px;
+}

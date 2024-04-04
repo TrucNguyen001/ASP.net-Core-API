@@ -1,0 +1,920 @@
+[
+  {
+    "ContainingType": "MISA.AMISDemo.Api.Controllers.BaseController\u00601[[MISA.AMISDemo.Core.Entities.Customer, MISA.AMISDemo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Get",
+    "RelativePath": "api/v1/Customer",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMISDemo.Api.Controllers.BaseController\u00601[[MISA.AMISDemo.Core.Entities.Customer, MISA.AMISDemo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetById",
+    "RelativePath": "api/v1/Customer/{misaEntityId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "misaEntityId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMISDemo.Api.Controllers.BaseController\u00601[[MISA.AMISDemo.Core.Entities.Customer, MISA.AMISDemo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "api/v1/Customer/delete/{misaEntityId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "misaEntityId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMISDemo.Api.Controllers.BaseController\u00601[[MISA.AMISDemo.Core.Entities.Customer, MISA.AMISDemo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "MultipleDelete",
+    "RelativePath": "api/v1/Customer/delete/multipleDelete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "misaEntityIds",
+        "Type": "System.Collections.Generic.List\u00601[[System.Guid, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMISDemo.Api.Controllers.BaseController\u00601[[MISA.AMISDemo.Core.Entities.Customer, MISA.AMISDemo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "MultiplePost",
+    "RelativePath": "api/v1/Customer/multiplePost",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "records",
+        "Type": "System.Collections.Generic.List\u00601[[MISA.AMISDemo.Core.Entities.Customer, MISA.AMISDemo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMISDemo.Api.Controllers.BaseController\u00601[[MISA.AMISDemo.Core.Entities.Customer, MISA.AMISDemo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Post",
+    "RelativePath": "api/v1/Customer/post",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "misaEntity",
+        "Type": "MISA.AMISDemo.Core.Entities.Customer",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMISDemo.Api.Controllers.BaseController\u00601[[MISA.AMISDemo.Core.Entities.Customer, MISA.AMISDemo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Put",
+    "RelativePath": "api/v1/Customer/put/{misaEntityId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "misaEntity",
+        "Type": "MISA.AMISDemo.Core.Entities.Customer",
+        "IsRequired": true
+      },
+      {
+        "Name": "misaEntityId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMISDemo.Api.Controllers.BaseController\u00601[[MISA.AMISDemo.Core.Entities.CustomerCompany, MISA.AMISDemo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Get",
+    "RelativePath": "api/v1/CustomerCompany",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMISDemo.Api.Controllers.BaseController\u00601[[MISA.AMISDemo.Core.Entities.CustomerCompany, MISA.AMISDemo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetById",
+    "RelativePath": "api/v1/CustomerCompany/{misaEntityId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "misaEntityId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMISDemo.Api.Controllers.BaseController\u00601[[MISA.AMISDemo.Core.Entities.CustomerCompany, MISA.AMISDemo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "api/v1/CustomerCompany/delete/{misaEntityId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "misaEntityId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMISDemo.Api.Controllers.BaseController\u00601[[MISA.AMISDemo.Core.Entities.CustomerCompany, MISA.AMISDemo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "MultipleDelete",
+    "RelativePath": "api/v1/CustomerCompany/delete/multipleDelete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "misaEntityIds",
+        "Type": "System.Collections.Generic.List\u00601[[System.Guid, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMISDemo.Api.Controllers.BaseController\u00601[[MISA.AMISDemo.Core.Entities.CustomerCompany, MISA.AMISDemo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "MultiplePost",
+    "RelativePath": "api/v1/CustomerCompany/multiplePost",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "records",
+        "Type": "System.Collections.Generic.List\u00601[[MISA.AMISDemo.Core.Entities.CustomerCompany, MISA.AMISDemo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMISDemo.Api.Controllers.BaseController\u00601[[MISA.AMISDemo.Core.Entities.CustomerCompany, MISA.AMISDemo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Post",
+    "RelativePath": "api/v1/CustomerCompany/post",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "misaEntity",
+        "Type": "MISA.AMISDemo.Core.Entities.CustomerCompany",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMISDemo.Api.Controllers.BaseController\u00601[[MISA.AMISDemo.Core.Entities.CustomerCompany, MISA.AMISDemo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Put",
+    "RelativePath": "api/v1/CustomerCompany/put/{misaEntityId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "misaEntity",
+        "Type": "MISA.AMISDemo.Core.Entities.CustomerCompany",
+        "IsRequired": true
+      },
+      {
+        "Name": "misaEntityId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMISDemo.Api.Controllers.BaseController\u00601[[MISA.AMISDemo.Core.Entities.CustomerGroup, MISA.AMISDemo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Get",
+    "RelativePath": "api/v1/CustomerGroup",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMISDemo.Api.Controllers.BaseController\u00601[[MISA.AMISDemo.Core.Entities.CustomerGroup, MISA.AMISDemo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetById",
+    "RelativePath": "api/v1/CustomerGroup/{misaEntityId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "misaEntityId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMISDemo.Api.Controllers.BaseController\u00601[[MISA.AMISDemo.Core.Entities.CustomerGroup, MISA.AMISDemo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "api/v1/CustomerGroup/delete/{misaEntityId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "misaEntityId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMISDemo.Api.Controllers.BaseController\u00601[[MISA.AMISDemo.Core.Entities.CustomerGroup, MISA.AMISDemo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "MultipleDelete",
+    "RelativePath": "api/v1/CustomerGroup/delete/multipleDelete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "misaEntityIds",
+        "Type": "System.Collections.Generic.List\u00601[[System.Guid, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMISDemo.Api.Controllers.BaseController\u00601[[MISA.AMISDemo.Core.Entities.CustomerGroup, MISA.AMISDemo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "MultiplePost",
+    "RelativePath": "api/v1/CustomerGroup/multiplePost",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "records",
+        "Type": "System.Collections.Generic.List\u00601[[MISA.AMISDemo.Core.Entities.CustomerGroup, MISA.AMISDemo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMISDemo.Api.Controllers.BaseController\u00601[[MISA.AMISDemo.Core.Entities.CustomerGroup, MISA.AMISDemo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Post",
+    "RelativePath": "api/v1/CustomerGroup/post",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "misaEntity",
+        "Type": "MISA.AMISDemo.Core.Entities.CustomerGroup",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMISDemo.Api.Controllers.BaseController\u00601[[MISA.AMISDemo.Core.Entities.CustomerGroup, MISA.AMISDemo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Put",
+    "RelativePath": "api/v1/CustomerGroup/put/{misaEntityId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "misaEntity",
+        "Type": "MISA.AMISDemo.Core.Entities.CustomerGroup",
+        "IsRequired": true
+      },
+      {
+        "Name": "misaEntityId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMISDemo.Api.Controllers.BaseController\u00601[[MISA.AMISDemo.Core.Entities.Department, MISA.AMISDemo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Get",
+    "RelativePath": "api/v1/Department",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMISDemo.Api.Controllers.BaseController\u00601[[MISA.AMISDemo.Core.Entities.Department, MISA.AMISDemo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetById",
+    "RelativePath": "api/v1/Department/{misaEntityId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "misaEntityId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMISDemo.Api.Controllers.BaseController\u00601[[MISA.AMISDemo.Core.Entities.Department, MISA.AMISDemo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "api/v1/Department/delete/{misaEntityId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "misaEntityId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMISDemo.Api.Controllers.BaseController\u00601[[MISA.AMISDemo.Core.Entities.Department, MISA.AMISDemo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "MultipleDelete",
+    "RelativePath": "api/v1/Department/delete/multipleDelete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "misaEntityIds",
+        "Type": "System.Collections.Generic.List\u00601[[System.Guid, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMISDemo.Api.Controllers.BaseController\u00601[[MISA.AMISDemo.Core.Entities.Department, MISA.AMISDemo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "MultiplePost",
+    "RelativePath": "api/v1/Department/multiplePost",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "records",
+        "Type": "System.Collections.Generic.List\u00601[[MISA.AMISDemo.Core.Entities.Department, MISA.AMISDemo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMISDemo.Api.Controllers.BaseController\u00601[[MISA.AMISDemo.Core.Entities.Department, MISA.AMISDemo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Post",
+    "RelativePath": "api/v1/Department/post",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "misaEntity",
+        "Type": "MISA.AMISDemo.Core.Entities.Department",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMISDemo.Api.Controllers.BaseController\u00601[[MISA.AMISDemo.Core.Entities.Department, MISA.AMISDemo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Put",
+    "RelativePath": "api/v1/Department/put/{misaEntityId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "misaEntity",
+        "Type": "MISA.AMISDemo.Core.Entities.Department",
+        "IsRequired": true
+      },
+      {
+        "Name": "misaEntityId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMISDemo.Api.Controllers.BaseController\u00601[[MISA.AMISDemo.Core.Entities.Employee, MISA.AMISDemo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Get",
+    "RelativePath": "api/v1/Employee",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMISDemo.Api.Controllers.BaseController\u00601[[MISA.AMISDemo.Core.Entities.Employee, MISA.AMISDemo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetById",
+    "RelativePath": "api/v1/Employee/{misaEntityId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "misaEntityId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMISDemo.Api.Controllers.BaseController\u00601[[MISA.AMISDemo.Core.Entities.Employee, MISA.AMISDemo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "api/v1/Employee/delete/{misaEntityId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "misaEntityId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMISDemo.Api.Controllers.BaseController\u00601[[MISA.AMISDemo.Core.Entities.Employee, MISA.AMISDemo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "MultipleDelete",
+    "RelativePath": "api/v1/Employee/delete/multipleDelete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "misaEntityIds",
+        "Type": "System.Collections.Generic.List\u00601[[System.Guid, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMISDemo.Api.Controllers.EmployeeController",
+    "Method": "ExportExcel",
+    "RelativePath": "api/v1/Employee/ExportFile",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "list",
+        "Type": "System.Collections.Generic.List\u00601[[MISA.AMISDemo.Core.DTOs.EmployeeDTOs, MISA.AMISDemo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMISDemo.Api.Controllers.EmployeeController",
+    "Method": "GetEmployeeCode",
+    "RelativePath": "api/v1/Employee/GetEmployeeCode",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMISDemo.Api.Controllers.EmployeeController",
+    "Method": "GetEmployees",
+    "RelativePath": "api/v1/Employee/GetEmployees",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMISDemo.Api.Controllers.EmployeeController",
+    "Method": "Import",
+    "RelativePath": "api/v1/Employee/import/{isCommit}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "isCommit",
+        "Type": "System.Boolean",
+        "IsRequired": true
+      },
+      {
+        "Name": "fileImport",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMISDemo.Api.Controllers.BaseController\u00601[[MISA.AMISDemo.Core.Entities.Employee, MISA.AMISDemo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "MultiplePost",
+    "RelativePath": "api/v1/Employee/multiplePost",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "records",
+        "Type": "System.Collections.Generic.List\u00601[[MISA.AMISDemo.Core.Entities.Employee, MISA.AMISDemo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMISDemo.Api.Controllers.EmployeeController",
+    "Method": "Paging",
+    "RelativePath": "api/v1/Employee/paging",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageIndex",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "text",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMISDemo.Api.Controllers.BaseController\u00601[[MISA.AMISDemo.Core.Entities.Employee, MISA.AMISDemo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Post",
+    "RelativePath": "api/v1/Employee/post",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "misaEntity",
+        "Type": "MISA.AMISDemo.Core.Entities.Employee",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMISDemo.Api.Controllers.BaseController\u00601[[MISA.AMISDemo.Core.Entities.Employee, MISA.AMISDemo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Put",
+    "RelativePath": "api/v1/Employee/put/{misaEntityId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "misaEntity",
+        "Type": "MISA.AMISDemo.Core.Entities.Employee",
+        "IsRequired": true
+      },
+      {
+        "Name": "misaEntityId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMISDemo.Api.Controllers.EmployeeController",
+    "Method": "SortDecrease",
+    "RelativePath": "api/v1/Employee/sort",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMISDemo.Api.Controllers.LoginController",
+    "Method": "Revoke",
+    "RelativePath": "api/v1/Login/{username}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMISDemo.Api.Controllers.LoginController",
+    "Method": "CheckCodeRecoverPassword",
+    "RelativePath": "api/v1/Login/forget/checkCode/{code}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "code",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMISDemo.Api.Controllers.LoginController",
+    "Method": "GetByEmail",
+    "RelativePath": "api/v1/Login/forget/getByEmail/{email}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMISDemo.Api.Controllers.LoginController",
+    "Method": "UpdatePassword",
+    "RelativePath": "api/v1/Login/forget/reupdatePassword/{accountId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "accountId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "account",
+        "Type": "MISA.AMISDemo.Core.Entities.Account",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMISDemo.Api.Controllers.LoginController",
+    "Method": "SendEmail",
+    "RelativePath": "api/v1/Login/forget/sendEmail/{email}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMISDemo.Api.Controllers.LoginController",
+    "Method": "Login",
+    "RelativePath": "api/v1/Login/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "account",
+        "Type": "MISA.AMISDemo.Core.DTOs.AccountLogin",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMISDemo.Api.Controllers.LoginController",
+    "Method": "RefreshToken",
+    "RelativePath": "api/v1/Login/refresh-token",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tokenModel",
+        "Type": "MISA.AMISDemo.Core.Auth.TokenModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMISDemo.Api.Controllers.LoginController",
+    "Method": "Register",
+    "RelativePath": "api/v1/Login/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "MISA.AMISDemo.Core.Auth.RegisterModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMISDemo.Api.Controllers.LoginController",
+    "Method": "RegisterAdmin",
+    "RelativePath": "api/v1/Login/register-admin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "MISA.AMISDemo.Core.Auth.RegisterModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMISDemo.Api.Controllers.LoginController",
+    "Method": "RevokeAll",
+    "RelativePath": "api/v1/Login/revoke-all",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMISDemo.Api.Controllers.BaseController\u00601[[MISA.AMISDemo.Core.Entities.Position, MISA.AMISDemo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Get",
+    "RelativePath": "api/v1/Position",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMISDemo.Api.Controllers.BaseController\u00601[[MISA.AMISDemo.Core.Entities.Position, MISA.AMISDemo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetById",
+    "RelativePath": "api/v1/Position/{misaEntityId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "misaEntityId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMISDemo.Api.Controllers.BaseController\u00601[[MISA.AMISDemo.Core.Entities.Position, MISA.AMISDemo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "api/v1/Position/delete/{misaEntityId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "misaEntityId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMISDemo.Api.Controllers.BaseController\u00601[[MISA.AMISDemo.Core.Entities.Position, MISA.AMISDemo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "MultipleDelete",
+    "RelativePath": "api/v1/Position/delete/multipleDelete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "misaEntityIds",
+        "Type": "System.Collections.Generic.List\u00601[[System.Guid, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMISDemo.Api.Controllers.BaseController\u00601[[MISA.AMISDemo.Core.Entities.Position, MISA.AMISDemo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "MultiplePost",
+    "RelativePath": "api/v1/Position/multiplePost",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "records",
+        "Type": "System.Collections.Generic.List\u00601[[MISA.AMISDemo.Core.Entities.Position, MISA.AMISDemo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMISDemo.Api.Controllers.BaseController\u00601[[MISA.AMISDemo.Core.Entities.Position, MISA.AMISDemo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Post",
+    "RelativePath": "api/v1/Position/post",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "misaEntity",
+        "Type": "MISA.AMISDemo.Core.Entities.Position",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMISDemo.Api.Controllers.BaseController\u00601[[MISA.AMISDemo.Core.Entities.Position, MISA.AMISDemo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Put",
+    "RelativePath": "api/v1/Position/put/{misaEntityId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "misaEntity",
+        "Type": "MISA.AMISDemo.Core.Entities.Position",
+        "IsRequired": true
+      },
+      {
+        "Name": "misaEntityId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
